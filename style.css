@@ -1,17 +1,20 @@
 
      h1 {
-        color : blue
+        color : rgb(255, 0, 0);
+        border: solid;
+        padding-left: 450px;
      }
 
      .header {
-        background-color: greenyellow;
+        background-color: #ab6ab6;
         font-style: italic;
         font-size: x-large;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      }
 
      .menu{
-         background-color: #a770ff;
          display: flex;
+         background-color: #51da12;
          flex-wrap: wrap;
          justify-content: space-around;
          font-size: x-large;
@@ -21,5 +24,11 @@
     
      .grid{
          font-size: medium;
-         background-color: #00ffff;
+         color: #10fabf
      }
+     body {
+        background-image: url('Nature.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
